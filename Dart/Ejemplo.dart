@@ -1,4 +1,5 @@
 void main() {
+  print("Hola Mundo soy Miguel Ángel");
   //Clases
   /*
   final spiderman = new Heroe();
@@ -48,13 +49,13 @@ void main() {
 
   //Números
 
-  /*
+  
   int empleados = 10;
   double salario = 2485.85;
   
   print("Empleados: $empleados");
   print (salario);
-  */
+  
 
   //String
   /*
@@ -80,7 +81,7 @@ class Heroe{
   String? poder;
   @override
   String toString() {
-    // TODO: implement toString
+    
     return 'Nombre del Heroe: ${this.nombre}, Poder: ${this.poder} ';
   }
 }
