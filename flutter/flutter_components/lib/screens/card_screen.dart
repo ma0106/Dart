@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_components/theme/app_theme.dart';
+import 'package:flutter_components/widgets/widgets.dart';
 
 class CardScreen extends StatelessWidget {
    
@@ -6,10 +8,17 @@ class CardScreen extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-         child: Text('CardScreen'),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('CardScreen'),
       ),
+      body: ListView(
+        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+        children: [
+          CustomCardTipo1()
+        ],
+      )
     );
   }
 }
+
