@@ -3,14 +3,14 @@ import 'package:flutter_components/routes/app_routes.dart';
 
 class HomeScreen extends StatelessWidget {
    
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
   
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Components en Flutter'),
-        backgroundColor: Colors.blue,
+        //backgroundColor: Colors.blue,
       ),
       body: ListView.separated(
         itemBuilder: ((context, index) => ListTile(

@@ -6,10 +6,18 @@
       <excludeFolder url="file://$MODULE_DIR$/flutter/fl-prueba/flutter_application_1/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/flutter/fl-prueba/flutter_application_1/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/flutter/fl-prueba/flutter_application_1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/clone de pedro/contador_app_2026/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/clone de pedro/contador_app_2026/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/clone de pedro/contador_app_2026/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/flutter_calculator/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/flutter_calculator/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/flutter_calculator/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/flutter_components/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/flutter_components/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/flutter_components/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
-    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>

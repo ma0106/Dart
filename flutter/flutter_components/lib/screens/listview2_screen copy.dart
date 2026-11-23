@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ListView2Screen extends StatelessWidget {
    final options = const ['GTA Vice City', 'GTA San Andreas', 'GTA VI', 'GTA V'];
 
-  const ListView2Screen({Key? key}) : super(key: key);
+  const ListView2Screen({super.key});
   
   @override
   Widget build(BuildContext context) {
